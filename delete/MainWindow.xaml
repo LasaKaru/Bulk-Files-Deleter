@@ -10,6 +10,9 @@
         </Grid.RowDefinitions>
         <Button Content="Select Folder" Click="SelectFolder_Click" Margin="10" HorizontalAlignment="Left"/>
         <Button x:Name="DeleteFilesButton" Content="Delete Files" Click="DeleteFiles_Click" Margin="10" HorizontalAlignment="Left" Grid.Row="1" IsEnabled="False"/>
-        <TextBox x:Name="FolderPathTextBox" TextWrapping="Wrap" Margin="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" IsReadOnly="True"/>
+        <TextBox x:Name="FolderPathTextBox" TextWrapping="Wrap" Margin="10,10,32,72" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Row="2" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="* Select a Folder You Wish to Delete" VerticalAlignment="Top" Margin="121,12,0,0" FontSize="10" Foreground="#FFFD0707" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="121,10,0,0" Grid.Row="1" Text="* Then Click On Delete Files Button" Foreground="#FFFF0303" FontSize="10" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Copyright2024@GoogleX Technologies" VerticalAlignment="Top" Margin="121,113,0,0" Grid.Row="2" Foreground="#FF06123C" FontFamily="Bell MT" FontSize="11"/>
     </Grid>
 </Window>
